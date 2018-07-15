@@ -10,6 +10,7 @@ $created=$session_data['CreationDate'];
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="<?php echo base_url(); ?>img/wimea-icon.png" >
     <title>Weather | <?php echo $userrole; if(isset($_GET['page'])){ echo "- ". $_GET['page']; }?></title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- jQuery 2.0.2

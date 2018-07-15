@@ -167,11 +167,11 @@ class Users extends CI_Controller {
 
                       //Send the User Credentials.
                       $htmlmessage = 'Hello '.''.$firstname.' '.$surname.'<br></br><br></br>'.
+                      'You have been assigned as '.$userRoleAssigned.'<br></br><br></br>'.
                           'Your  New WIMEA-ICT Web Interface  Credentials are'.'<br></br><br></br>'.
-                          'You have been assigned as '.$userRoleAssigned.'<br></br><br></br>'.
                           'UserName:'.''.'<b><em>'.$username.'</b></em><br></br><br></br>'.
                           'Password:'.''.'<b><em>'.$randompassword.'</b></em><br></br><br></br>'.
-                          '<a href="http://www.wimea.mak.ac.ug/wdr/">Click here to login!</a>'.
+                          '<a href="http://196.0.11.146/weather/">Click here to login!</a>'.
                           'Thank You'.'<br></br><b></br><b></br>'.'WIMEA-ICT';
 
                       //If true an Email has been sent Else
