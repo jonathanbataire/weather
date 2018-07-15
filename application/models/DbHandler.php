@@ -1143,7 +1143,7 @@ return $this->db->count_all_results();
                                 $data_id = $row->id;
                             }
                             else if($id == 'Userid'){
-                                $data_id = $row->id;
+                                $data_id = $row->Userid;
                             }
                             
                         }
